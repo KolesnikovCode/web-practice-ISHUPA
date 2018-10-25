@@ -1,0 +1,44 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background: no-repeat;
+    background-image: url(img/bg.jpg);
+    background-color: #00000070;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 20px;
+    z-index: 0;
+    color: #ecf8ff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Fascinate Inline', cursive;
+    margin-left: 4em;
+    font-size: 2.2em;
+    opacity: .7;
+}
+
+.menu {
+    margin-top: 3em;
+    margin-right: 6em;
+}
+
+a {
+    text-decoration: none;
+    color: #ecf8ff;
+    margin-left: 1.7em;
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 1;
+    border-bottom: 1px solid #ffa033c0;
+}

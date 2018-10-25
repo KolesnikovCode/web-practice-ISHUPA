@@ -67,3 +67,8 @@ h1:hover {
     color: #cfcfcf;
     cursor: default;
 }
+
+#chs {
+    opacity: 0.8;
+    text-align: center;
+}
